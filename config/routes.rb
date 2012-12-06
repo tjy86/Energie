@@ -1,6 +1,7 @@
 Energie::Application.routes.draw do
 
   post '/data' => 'home#data'
+  post '/graph'=> 'home#graph'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

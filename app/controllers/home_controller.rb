@@ -16,6 +16,10 @@ class HomeController < ApplicationController
       z.kwh = x[10]
       z.save
     end
-    binding.pry
+  end
+
+  def graph
+    zipcodes = ZipCode.all
+    render :json => zipcodes
   end
 end
