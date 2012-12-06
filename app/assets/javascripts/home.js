@@ -20,7 +20,7 @@ function display_graph(zipcodes)
     element: 'graph',
     // in this case data is expecting an array of objects.  which is what movies is
     data: zipcodes,
-    xkey: 'zipcode',
+    xkey: 'zip',
     ykeys: ['kwh'],
     labels: ['Zipcode', 'KWH']
   });
