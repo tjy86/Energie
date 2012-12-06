@@ -2,6 +2,8 @@ class HomeController < ApplicationController
   def index
   end
   def data
+    ZipCode.delete_all
+
     html = HTTParty.get('http://data.cityofnewyork.us/api/views/74cu-ncm4/rows.json')
     json = JSON(html.body)
 
