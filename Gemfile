@@ -10,7 +10,7 @@ gem 'pry-rails'
 gem 'annotate'
 gem 'httparty'
 gem 'geocoder'
-
+gem 'yahoofinance'
 
 
 # Gems used only for assets and not required
