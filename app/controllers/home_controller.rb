@@ -5,8 +5,4 @@ class HomeController < ApplicationController
     zipcodes = ZipCode.all
     render :json => zipcodes
   end
-
-  def map
-
-  end
 end
